@@ -13,6 +13,14 @@ class PrincipalController extends Controller
     {
         return view('sobre');
     }
+    public function contato()
+    {
+        return view ('contato');
+    }
+    
+
+
+
     
 
 }
