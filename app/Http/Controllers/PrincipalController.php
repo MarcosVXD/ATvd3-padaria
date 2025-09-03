@@ -9,8 +9,10 @@ class PrincipalController extends Controller
     public function bakery(){
         return view('bakery');
     }
-    public function sobreNosXD(){
-        return view('sobre-nosXD');
+    public function sobre()
+    {
+        return view('sobre');
     }
     
+
 }
