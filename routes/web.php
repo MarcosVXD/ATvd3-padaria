@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/bakery', [PrincipalController::class, 'bakery']);
+Route::get('/sobre-nosXD', [PrincipalController::class, 'sobre-nosXD']);
