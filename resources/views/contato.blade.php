@@ -73,7 +73,8 @@
 
   <div class="conteudo">
     <h1>Entre em Contato</h1>
-    <form>
+    <form method="POST">
+      @csrf
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required>
 

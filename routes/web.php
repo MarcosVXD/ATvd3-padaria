@@ -24,3 +24,5 @@ Route::get('/sobre', [PrincipalController::class, 'sobre']);
 
 Route::get('contato',[PrincipalController::class,'contato']);
 
+Route::post('/contato',[PrincipalController::class, 'enviarcontato']);
+
